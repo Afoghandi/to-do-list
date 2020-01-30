@@ -1,0 +1,29 @@
+@import "../../index.scss";
+.todo-container {
+    background: lavender;
+    padding-bottom: 150px;
+    margin-top: 150px;
+    h2 {
+        text-align: center;
+        padding-top: 10px;
+        font-size: 40px;
+        color: coral;
+        text-decoration: underline;
+    }
+}
+
+.list-container {
+    width: 80%;
+    margin-top: 10px;
+    font-size: 30px;
+    padding-left: 80px;
+}
+
+.btn-danger {
+    width: 100%;
+    background-color: red;
+    height: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}

@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$mainBlack: #222;
+$mainGreen: #82b340;
+$mainWhite: #fff;
+$mainGrey: #ececec;
+$mainTransition: all 0.3s linear;
+body {
+    font-family: "Open sans", "san-serif";
+    background: $mainWhite;
+    color: $mainBlack;
+}
+
+.to-do-container {
+    background: $mainGrey;
+    width: 70vw;
+    max-width: 1170px;
+    height: 900px;
+    margin: 0 auto;
+    padding: 2rem 0;
+    text-align: center;
+}

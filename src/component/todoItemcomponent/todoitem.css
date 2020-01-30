@@ -1,0 +1,33 @@
+.item-container {
+  text-transform: uppercase;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+.item-container h6 {
+  text-align: left;
+  border-bottom: dotted;
+  width: 90%;
+  float: left;
+}
+.icon-container {
+  float: right;
+}
+.trash {
+  float: right;
+  color: crimson;
+  cursor: pointer;
+}
+.trash :hover {
+  color: cyan;
+  opacity: 50%;
+}
+.edit {
+  float: right;
+  padding-right: 10px;
+  color: blueviolet;
+  cursor: pointer;
+}
+.edit :hover {
+  color: cyan;
+  opacity: 50%;
+}
